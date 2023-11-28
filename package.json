@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "My personal portfolio made with EJS and Bulma CSS",
   "main": "index.js",
-  "engine": {
-    "node": "14.x"
-  },
   "scripts": {
     "start": "node index.js"
   },
