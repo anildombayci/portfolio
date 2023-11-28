@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My personal portfolio made with EJS and Bulma CSS",
   "main": "index.js",
-  engine:{
+  "engine":{
     "node": "14.x"
   },
   "scripts": {
@@ -14,7 +14,7 @@
     "ejs",
     "bulma"
   ],
-  "author": "Anıl Dombaycı
+  "author": "Anıl Dombaycı"
   "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.9",
