@@ -16,5 +16,6 @@ app.get('*', function (req, res) {
     res.render('index');
 });
 // Log and listen to port
-app.listen(5050)
+app.listen(3000)
 console.log('[🔌] Listening on Port 3000');
+module.exports = app
