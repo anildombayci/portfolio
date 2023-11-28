@@ -16,5 +16,5 @@ app.get('*', function (req, res) {
     res.render('index');
 });
 // Log and listen to port
-app.listen(3000)
+app.listen(5050)
 console.log('[🔌] Listening on Port 3000');
