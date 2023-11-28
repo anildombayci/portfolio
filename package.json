@@ -3,18 +3,19 @@
   "version": "1.0.0",
   "description": "My personal portfolio made with EJS and Bulma CSS",
   "main": "index.js",
+  engine:{
+    "node": "14.x"
+  },
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "start": "node index.js"
   },
   "keywords": [
     "portfolio",
     "ejs",
     "bulma"
   ],
-  "author": "Edward Deakin (https://edeakin.xyz)",
-  "license": "GPL-3.0",
+  "author": "Anıl Dombaycı
+  "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2"
